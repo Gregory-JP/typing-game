@@ -1,3 +1,4 @@
 langchain-groq
 langchain-core
+python-dotenv
 flask
