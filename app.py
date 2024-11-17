@@ -10,7 +10,7 @@ PORT = os.getenv('PORT')
 
 app = Flask(__name__)
 
-CORS(app)
+CORS(app, resources={r'/*': {'origins': '*'}})
 
 @app.route('/qna', methods=['POST'])
 def qna():

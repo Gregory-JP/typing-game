@@ -16,6 +16,7 @@ async function fetchStory(query) {
       body: JSON.stringify({ query }),
     });
     const data = await response.json();
+    console.log(data);
     return data.answer;
   } catch (error) {
     console.error("Erro ao buscar a história:", error);
