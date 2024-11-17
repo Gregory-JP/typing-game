@@ -1,0 +1,86 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Database files
+database/*.db
+*.sqlite3
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# JetBrains IDEs (e.g., PyCharm) settings
+.idea/
+
+# MacOS
+.DS_Store
+
+# Windows Thumbs
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Test data
+tests/data/
+
+# Notebook Stuff
+.ipynb_checkpoints/
+
+# Profiling data
+.prof
+
+# Pyre type checker
+.pyre/
+
+# Pyre virtual environment
+.pyre_venv/
+
+# pytype static type analyzer
+.pytype/
+
+teste.py

@@ -1,0 +1,86 @@
+/* Estilo geral do body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; /* Fundo escuro */
+    color: #ffffff; /* Texto claro */
+  }
+  
+  /* Container centralizado */
+  .container {
+    text-align: center;
+    background: #1e1e1e; /* Fundo do container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 700px; /* Maior largura para o container */
+  }
+  
+  /* Campos de texto e botões */
+  textarea, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Campo de texto */
+  textarea {
+    background-color: #2c2c2c; /* Fundo escuro */
+    color: #ffffff; /* Texto claro */
+    resize: none; /* Desativa redimensionamento */
+  }
+  
+  /* Botão */
+  button {
+    background-color: #4CAF50; /* Verde para contraste */
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Verde mais escuro no hover */
+  }
+  
+  /* Texto gerado */
+  .text-container {
+    text-align: left;
+    margin: 20px 0;
+    padding: 15px; /* Um pouco mais de espaçamento interno */
+    background-color: #2c2c2c; /* Fundo escuro */
+    border-radius: 5px;
+    font-size: 16px;
+    white-space: pre-wrap;
+    max-width: 100%; /* Ocupará toda a largura disponível */
+    min-height: 150px; /* Garantir altura mínima */
+  }
+  
+  /* Estilo para caracteres */
+  .text-container span {
+    opacity: 0.3; /* Inicialmente translúcido */
+    color: #ffffff;
+    transition: opacity 0.2s, color 0.2s;
+  }
+  
+  .text-container span.correct {
+    opacity: 1; /* Totalmente visível se correto */
+    color: #ffffff; /* Cor padrão */
+  }
+  
+  .text-container span.incorrect {
+    color: #ee3636; /* Vermelho para erros */
+  }
+  
