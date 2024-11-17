@@ -1,4 +1,5 @@
 langchain-groq
 langchain-core
 python-dotenv
+Flask-Cors
 flask
