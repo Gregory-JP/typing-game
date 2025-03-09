@@ -6,7 +6,7 @@ class QnA:
         # Configurar o modelo de linguagem
         self.llm = ChatGroq(
             temperature=0.8,
-            model_name='llama-3.1-70B-versatile',
+            model_name='llama3-8b-8192',
             api_key=api_key,
             model_kwargs={
                 'top_p': 0.9,
@@ -34,4 +34,3 @@ class QnA:
         response = chain.invoke({'input': user_input})
 
         return response.content
-    
